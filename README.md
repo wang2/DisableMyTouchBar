@@ -79,5 +79,5 @@ launchctl bootout gui/$(id -u)/com.local.disable-my-touchbar
 rm ~/Library/LaunchAgents/com.local.disable-my-touchbar.plist
 # Then simply delete this project directory
 ```
-## Uninstall
+## License
 MIT
