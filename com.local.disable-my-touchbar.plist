@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.local.disable-my-touchbar</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/shuo.wangws/Documents/antigravity/DisableMyTouchBar/disable_my_touchbar</string>
+    </array>
+
+    <!-- 崩溃后自动重启 -->
+    <key>KeepAlive</key>
+    <true/>
+
+    <!-- 登录后自动启动 -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- 日志 -->
+    <key>StandardOutPath</key>
+    <string>/tmp/disable_my_touchbar.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/disable_my_touchbar_err.log</string>
+</dict>
+</plist>

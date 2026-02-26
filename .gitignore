@@ -1,0 +1,13 @@
+# MacOS
+.DS_Store
+*.swp
+
+# Xcode/Swift builds
+.build/
+build/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# Compiled binary
+disable_my_touchbar
